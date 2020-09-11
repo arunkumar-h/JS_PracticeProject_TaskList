@@ -63,7 +63,7 @@ function clearTasks(e){
     while(taskList.firstChild){
         taskList.removeChild(taskList.firstChild);
     }
-    e.preventDefault();
+    e.preventDefault(); 
 }
 
 function filterTasks(e){
