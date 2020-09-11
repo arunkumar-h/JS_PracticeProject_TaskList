@@ -100,7 +100,7 @@ function storeTaskInLocalStorage(task){
 
 function removeTask(e){
     if(e.target.parentElement.classList.contains('delete-item')){
-        if(confirm('Are You Sure?')){
+        if(confirm('Are You Sure ?')){
             e.target.parentElement.parentElement.remove();
 
             //Remove from local storage
